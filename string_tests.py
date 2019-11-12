@@ -10,15 +10,15 @@ class StringFunctionTests(unittest.TestCase):
 
     def test_reverse(self):
         """Test reversing a string."""
-        pass
+        self.assertEqual(reverse("1"), "1")
 
     def test_reverse_words(self):
         """Test reversing words in a string."""
-        pass
+        self.assertEqual(reverse_words("dog"), "god")
 
     def test_sarcastic(self):
         """Test sarcastic-ifying a string."""
-        pass
+        self.assertEqual(sarcastic("Hello"), "HeLlO")
 
 # run the tests
 if __name__ == '__main__':
